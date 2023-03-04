@@ -1,0 +1,198 @@
+<style>
+}
+
+*{
+    margin:0; 
+    padding:0;
+    box-sizing: border-box; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color:#333;
+    padding:1rem;
+    margin:2rem 0;
+    background:rgba(255, 51, 153,.05);
+    color:white;
+}
+
+
+
+
+
+
+
+
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background:#fff;
+    padding:2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .logo{
+    font-size: 3rem;
+    color:#333;
+    font-weight: bolder;
+}
+
+
+header .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem;
+    color:#666;
+    
+}
+
+
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color:#333;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+    border:.1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+
+  body{
+background-image:url(file:///E:/New%20folder/home%20page%20img122.jpeg );
+background-repeat:no-repeat;
+background-attachment:;
+background-size: 100% 14%;
+}
+
+
+.sec{
+display: flex;
+justify-content: center;
+
+}
+.sec button{
+width: 220px;
+background-color: #008000 0,128,0
+color: white;
+font-weight: 600;
+text-align: center;
+border: none;
+font-size: 16px;
+
+}
+.sec input{
+width: 730px;
+height: 29px;
+border: 1px solid #808080 128,128,128
+}
+.main-page img{
+width: 100%;
+}
+.btn{
+display: flex;
+justify-content: center;
+justify-content: space-around;
+}
+.btn button{
+width: 180px;
+height: 36px;
+background-color: #008000 0,128,0
+border: none;
+color:  white;
+font-size: 14px;
+font-weight: 600;
+text-align: center;
+border-radius: 6px;
+}
+.container .card{
+width: 200px;
+haight: 220px;
+border: 1px solid grey #979797
+text-align: center;
+}
+.container{
+display: flex;
+justify-content: center;
+justify-content: space-around;
+margin-top: 33px;
+}
+
+.img{
+position:relative;
+top:+200px;
+left:30px;
+}
+
+.all{
+position:relative;
+top:+100px;
+left:30px;
+}
+.btn{
+width:150px;
+height:41px;
+position:relative;
+top:-10px;
+left:-150px;
+}
+.box{
+width:400px;
+height:41px;
+position:relative;
+top:-49px;
+left:+150px;
+}
+
+.but{
+background:black;
+color:white;
+
+}
+
+
+.usaa{
+position:relative;
+ color:white;
+top:-50px;
+left:150px;
+position:center;
+
+}
+
+
+.kushi{
+position:relative;
+top:-60px;
+left:150px;
+}
+
+
+
+
+
+</style>
+
